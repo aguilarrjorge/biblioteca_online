@@ -1,0 +1,9 @@
+.home{    
+    color: inherit;
+}
+.home__element{
+    color: red;
+}
+.home__element--modifier{
+    color: blue;
+}

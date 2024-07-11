@@ -1,0 +1,73 @@
+.navbar{    
+    padding: 15px 15px 0 15px;
+    display: flex;
+}
+
+.navbar__ul{  
+    
+    margin-left: 50px;    
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nabvar__li {
+    margin-right: 70px;
+    padding: 10px 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    color: #44425A;
+    font-size: 22px;
+}
+
+.nabvar__li--modifer{
+    
+    border-radius: 15px;
+    background-color: #FF6600;
+    padding: 10px 10px 10px 10px;
+    margin: 0 0 5 80px;
+    color: #ffffff;
+}
+.nabvar__li--img{     
+    display: flex;  
+    width: 100px;
+}
+
+.nabvar__li--textLogo{
+    border: 1px solid;   
+    color: #FF6600;
+    justify-content: left;
+}
+
+.nabvar__li:hover{
+    color: #FF6600;
+    cursor:pointer;   
+}
+
+.nabvar__li--modifer:hover{
+    background-color: #D95700;
+    color: #ffffff;
+}
+
+.sub_navbar{
+    border:1px solid;
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.sub_navbar_li--a{
+    color: #000000;
+    text-decoration: none;
+   text-align: left
+}
+
+.nabvar__li:hover > .sub_navbar{
+    background-color: #ffffff;
+    position: absolute;
+    display: block;
+    font-size: 25px;
+}
+
+
+

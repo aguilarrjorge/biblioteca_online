@@ -1,6 +1,6 @@
 import React from 'react'
-import './home.css'
-import img_1 from '../../assets/img_home.jpg'
+import '../styles/home.css'
+import img_1 from '../assets/img_home.jpg'
 
 
 export default function home() {

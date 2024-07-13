@@ -1,9 +1,10 @@
-import logo from './logo.svg';
 import Navbar from './components/Navbar.js'
 import Home from './components/Home.js'; 
 import Contact from './components/contacto.js'
+import ConsultarAlquiler from './components/Consultar.js'
+import Categorias from './components/Categorias.js'
 import './App.css';
-import { Route, BrowserRouter, Routes } from 'react-router-dom'; 
+import { Route, BrowserRouter, Routes, useParams } from 'react-router-dom'; 
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Navbar/>
       </div> 
       <Routes>
-        <Route path="/" element={<Home />} />     
+        <Route path="/" element={<Home />} /> 
+        <Route path="/consultar/:id" element={<ConsultarAlquiler />} />    
+        <Route path="/categorias/:id" element={<Categorias />} />    
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>

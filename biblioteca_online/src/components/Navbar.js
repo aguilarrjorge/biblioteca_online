@@ -3,6 +3,7 @@ import '../styles/Navbar.css';
 import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom';
 
+
 export default function Navbar() {
   
   const [ isVisible, setIsVisible ] = useState(false)   
@@ -24,6 +25,8 @@ export default function Navbar() {
     console.log(e.target.value)
     console.log("user" + user)   
   }
+
+  
 
 
   return (
@@ -56,10 +59,10 @@ export default function Navbar() {
               <li className='nabvar__li'> Categorias  
               <ul className="sub_navbar">
                     <li className='sub_navbar_li'>
-                      <a className='sub_navbar_li sub_navbar_li--a' href="#">Literatura</a>
+                      <a className='sub_navbar_li sub_navbar_li--a' href="/contact">Literatura</a>
                     </li>
                     <li className='sub_navbar_li'>
-                      <a className='sub_navbar_li sub_navbar_li--a' href="#">Psicologia</a>
+                      <Link to={'/categorias/Psicologia'} className='sub_navbar_li sub_navbar_li--a'>Psicologia</Link>
                     </li>   
                     <li className='sub_navbar_li'>
                       <a className='sub_navbar_li sub_navbar_li--a' href="#">Cuentos</a>
@@ -85,7 +88,7 @@ export default function Navbar() {
               <li className='nabvar__li'> 
                 <Link to={'/contact'} className='nabvar__li navbar__li--link'>  Contacto   </Link>  
               </li>
-              <li className='nabvar__li nabvar__li--modifer'> Ingresar       </li>
+              <li className='nabvar__li nabvar__li--modifer'> Ingresar </li>
           </ul> 
       </div>
 
@@ -97,17 +100,19 @@ export default function Navbar() {
                     <a className="modalmask__modalbox--close" href="#close" title="Cerrar" onClick={() => setIsVisible(false)}>X</a>
                     <h2 className='modalmask__modalbox--title'>Ingresa tu id de usuario</h2>
                     <form className='modalbox__form'>
-                      <input className='modalbox__form--input' type='text' name= 'id_usuario' placeholder='id de usuario' id='idUsuario' onChange={update_is_usuario}/>
+                      <input className='modalbox__form--input' type='text' name= 'id_usuario' placeholder='id de usuario' id='idUsuario' value={user} onChange={update_is_usuario}/>
                       { /*<Link to={'/home'} className='modalbox__form--button' onClick={update} disabled> Aceptar </Link> */}
                       { user != '' ? 
-                          <Link to={'/home'}> 
+                          <Link to={'/consultar/123'}> 
                             <button className='modalbox__form--button' onClick={update}> Aceptar </button> 
                           </Link>
                           : "" }
                     </form>
                 </div>
               </div>
-            : ("")     
+            : ("") 
+            
+            
 }
 
 

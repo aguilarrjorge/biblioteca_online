@@ -1,0 +1,32 @@
+.main{
+     
+  background-color: #f1f4ff;
+   padding: 30px 30px 30px 30px;
+
+
+}
+
+.main__table {  
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+    text-align: center;
+  }
+  
+  .main__table--modifier--td, .main__table--modifier--th {
+    border: 1px solid #ddd;
+    padding: 8px;    
+  }
+  
+  .main__table--modifier:nth-child(even){background-color: #f2f2f2;}
+  
+  .main__table--modifier:hover {background-color: #ddd;}
+  
+  .main__table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    width: auto;
+  }

@@ -47,3 +47,13 @@
     text-align: right;
     
 }
+.Categorias{   
+    display: flex;
+    justify-content: center;
+}
+
+.Categorias__element--p{
+    color: #44425A;
+    font-size: 1.5em;
+    font-weight: bold;
+}

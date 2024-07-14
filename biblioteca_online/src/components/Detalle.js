@@ -8,6 +8,7 @@ import getApi from '../hooks/getApi';
 export default function Detalle() {
 
     const [id, setId] = useState(0)
+    const [ isVisible, setIsVisible ] = useState(false)   
 
     let params = useParams()
     console.log("params "+params.id)
@@ -17,9 +18,10 @@ export default function Detalle() {
 
     console.log(data);
 
-    const numbers = [1, 2, 3, 4, 5];
-  const doubled = numbers.map((number) => number * 2);
-  console.log(doubled);
+    function update(){
+        console.log("valor pasdo")
+       
+      }
   
  
 
@@ -58,13 +60,31 @@ export default function Detalle() {
                         </p>
                     </p>
                     <div className='detalle__button'> 
-                        <Link className='detalle__buttonAlquilar'> Alquilar </Link>
+                        <a className='detalle__buttonAlquilar' href="#modal"> Alquilar </a>
                     </div>
                 </div>
             </div>
         :('')
     }
 
+            <div className="modalmask" id='modal' >
+                <div className="modalmask__modalbox modalmask__modalbox--movedown">
+                    <a className="modalmask__modalbox--close" href="#close" title="Cerrar" onClick={() => setIsVisible(false)}>X</a>
+                    <h2 className='modalmask__modalbox--title'>Complete los campos</h2>
+                    <form className='modalbox__form'>
+                        <div className='modalbox__form--title' > *  Id de usuario </div>
+                            <input className='modalbox__form--input' type='text' name= 'id_usuario' placeholder='id de usuario'/>
+                        <div className='modalbox__form--title' > Metodo de pago </div>
+                            <input className='modalbox__form--input' type='text' name= 'pago' placeholder='id de usuario'/>
+                        <div className='modalbox__form--title' > Desde </div>
+                            <input className='modalbox__form--input' type='date' name = 'periodo_inicial'/>
+                        <div className='modalbox__form--title' > Hasta </div>
+                            <input className='modalbox__form--input' type='date' name = 'periodo_final'/>
+                        
+                        <button className='modalbox__form--button' onClick={update}> Aceptar </button>                           
+                    </form>
+                </div>
+            </div>
       
     </div>
   )

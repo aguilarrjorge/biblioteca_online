@@ -26,14 +26,20 @@ export default function Categorias() {
 
   return (
     <div>Categorias 
+      <div className="Categorias">
+        <div className='Categorias__element'>          
+          <p className='Categorias__element--p'> Libreria Online Alquiler de libros </p>
+        </div>
+      </div>
 
-<h1>Data from API</h1>
-<pre>{//JSON.stringify(data2, null, 2)
-}</pre>
+      <pre>{
+      //JSON.stringify(data2, null, 2)
+      }</pre>
     
     <div className="categorias">
     
       <Search/>
+      
     
 
 {data2 &&

@@ -1,0 +1,46 @@
+.detalle{
+    background-color: rgb(250, 246, 246);
+    margin: 30px 200px;
+    display: flex;
+    
+}
+.detalle__img{
+    width: 30em;
+    height: 40em;
+    margin: 10px;
+}
+.detalle__p{
+    /*border: 1px solid blue;*/
+    padding: 15px;
+}
+.categorias__element--p7 a{
+    font-size: 1.5em;
+    color: #004d43;
+}
+
+.categorias__element--p6{
+    color: #21645b;
+}
+
+.categorias__element--p7{
+    line-height: 1.5;
+    text-align: justify;
+    font-family: cursive;
+    
+}
+
+.detalle__button{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.detalle__buttonAlquilar{
+    background-color: #004D43;
+    padding: 15px;
+    border-radius: 9px;
+    text-decoration: none;
+    
+    color: #fff;
+}

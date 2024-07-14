@@ -11,13 +11,7 @@ export default function home() {
       <div className='home__element home__element--modifier'>element 1</div>
      */
     <div className='home'>
-
-
-    
-
       <img src= {img_1} width="100%"/>
-        
-
     </div>
     
   )

@@ -57,13 +57,13 @@ export default function Navbar() {
                 </ul>
               </li>
               <li className='nabvar__li'> Categorias  
-              <ul className="sub_navbar">
-                    <li className='sub_navbar_li'>
-                      <a className='sub_navbar_li sub_navbar_li--a' href="/contact">Literatura</a>
-                    </li>
+              <ul className="sub_navbar">                    
                     <li className='sub_navbar_li'>
                       <Link to={'/categorias/Psicologia'} className='sub_navbar_li sub_navbar_li--a'>Psicologia</Link>
                     </li>   
+                    <li className='sub_navbar_li'>
+                      <a className='sub_navbar_li sub_navbar_li--a' href="#">Literatura</a>
+                    </li>
                     <li className='sub_navbar_li'>
                       <a className='sub_navbar_li sub_navbar_li--a' href="#">Cuentos</a>
                     </li>

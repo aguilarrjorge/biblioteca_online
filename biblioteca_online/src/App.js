@@ -5,6 +5,7 @@ import ConsultarAlquiler from './components/Consultar.js'
 import Categorias from './components/Categorias.js'
 import Detalles from './components/Detalle.js'
 import Search from './components/Buscador.js'
+import Admin from './components/Administrador.js'
 
 import './App.css';
 import { Route, BrowserRouter, Routes, useParams } from 'react-router-dom'; 
@@ -21,7 +22,8 @@ function App() {
         <Route path="/categorias/:id" element={<Categorias />} />   
         <Route path="/detalles/:id" element={<Detalles />} />    
         <Route path="/contact" element={<Contact />} />
-        <Route path="/buscador" element={<Search />} />
+        <Route path="/administrador" element={<Admin />} />
+        <Route path="/buscador" element={<Search /> /* para probar el componente buscador*/} /> 
       </Routes>
     </BrowserRouter>
 

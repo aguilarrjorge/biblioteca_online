@@ -17,7 +17,7 @@ export default function Consultar() {
 
   return (
     <div className='main'>
-    <h2>consultar_alquiler {params.id} </h2>
+
 
       <table className='main__table'>
         <tr className='main__table main__table--modifier'>
@@ -30,84 +30,84 @@ export default function Consultar() {
         </tr>
         <tr className='main__table main__table--modifier'>
           <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
-          <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>196</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
+          <td className='main__table--modifier--td'>Entregado</td>
+          <td className='main__table--modifier--td'>Tarjeta de crédito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
          <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
+          <td className='main__table--modifier--td'>133</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
           <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>Paypal</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
           
         </tr>
         <tr className='main__table main__table--modifier'>
          <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
-          <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>123</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
+          <td className='main__table--modifier--td'>En espera de recoger</td>
+          <td className='main__table--modifier--td'>Tarjeta de crédito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
           
         </tr>
         <tr className='main__table main__table--modifier'>
          <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
-          <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>231</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
+          <td className='main__table--modifier--td'>finalizado</td>
+          <td className='main__table--modifier--td'>Deposito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
           <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
+          <td className='main__table--modifier--td'>33</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
           <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>Deposito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
           <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
+          <td className='main__table--modifier--td'>13</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
           <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>Tarjeta de crédito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
           <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
-          <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>15</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
+          <td className='main__table--modifier--td'>En espera de recoger</td>
+          <td className='main__table--modifier--td'>Paypal</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
          <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
-          <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>1369</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
+          <td className='main__table--modifier--td'>finalizado</td>
+          <td className='main__table--modifier--td'>deposito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
          <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
+          <td className='main__table--modifier--td'>132</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
           <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>Tarjeta de crédito</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
         <tr className='main__table main__table--modifier'>
          <td className='main__table--modifier--td'>Alfreds Futterkiste</td>
-          <td className='main__table--modifier--td'>1</td>
-          <td className='main__table--modifier--td'>mensual</td>
-          <td className='main__table--modifier--td'>pendiente</td>
-          <td className='main__table--modifier--td'>TC</td>
+          <td className='main__table--modifier--td'>178</td>
+          <td className='main__table--modifier--td'>01/07/2024 - 31/07/2024</td>
+          <td className='main__table--modifier--td'>En espera de recoger</td>
+          <td className='main__table--modifier--td'>paypal</td>
           <td className='main__table--modifier--td'><img src={calendar}  width='30px'/></td>
         </tr>
       </table>          

@@ -4,8 +4,8 @@
 }
 
 .navbar__ul{  
-    
-    margin-left: 50px;    
+  
+    margin-left: 10px;    
     width: 100%;
     list-style: none;
     display: flex;
@@ -13,6 +13,7 @@
 }
 
 .nabvar__li {
+   
     margin-right: 70px;
     padding: 10px 0 0 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
@@ -23,14 +24,7 @@
 .navbar__li--link{
     text-decoration: none;
 }
-.nabvar__li--modifer{
-    
-    border-radius: 15px;
-    background-color: #FF6600;
-    padding: 10px 10px 10px 10px;
-    margin: 0 0 5 80px;
-    color: #ffffff;
-}
+
 .nabvar__li--img{     
     display: flex;  
     width: 100px;
@@ -47,7 +41,7 @@
     cursor:pointer;   
 }
 
-.nabvar__li--modifer:hover{
+.sub_navbar_li--login:hover{
     background-color: #D95700;
     color: #ffffff;
 }
@@ -69,6 +63,14 @@
     color: #000000;
     text-decoration: none;
    align-items: left;
+}
+.sub_navbar_li--login{
+    background-color: #FF6600;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+   align-items: left;
+   padding: 5px;
 }
 
 .nabvar__li:hover > .sub_navbar{
@@ -172,6 +174,10 @@
     background-color: #D95700;
     font-weight: bolder;
     cursor: pointer;      
+}
+
+.modal__button--m2{
+    padding: 10px;
 }
 
 
